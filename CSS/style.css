@@ -1,6 +1,7 @@
-img .home {
-    height: 100px;
+.IMGS {
+    height: 170px;
     width: auto;
+    margin-left: 8cm;
 }
 
 * {
@@ -12,11 +13,13 @@ img .home {
 #main {}
 
 #header {
-    height: 45px;
+    height: 50px;
     background-color: #3f2ecf;
 }
-#nav{
-    text-align: center; /* Căn giữa các mục */
+
+#nav {
+    text-align: center;
+    /* Căn giữa các mục */
     padding: 0;
     margin: 0;
 }
@@ -35,8 +38,9 @@ img .home {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    
+
 }
+
 #nav li:hover a {
     background-color: #ea6c20;
 }
@@ -44,16 +48,22 @@ img .home {
 #slider {}
 
 #content {}
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
-a{
+
+a {
     color: blue;
 }
-ol{
+
+ol {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 .newshort {
     font-weight: bold;
     padding-bottom: 20px;
@@ -61,6 +71,7 @@ ol{
 }
 
 #footer {}
+
 .region-footer {
     background: #1E2071;
     padding: 20px 0;
@@ -68,34 +79,46 @@ ol{
     background-repeat: no-repeat;
     color: #828282;
 }
+
 div {
     display: block;
     unicode-bidi: isolate;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #f5f5f5;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #dcdcdc;
     border: 0px solid #000000;
     border-radius: 16px;
 }
-pre,h1,p {
+
+pre,
+h1,
+p {
     font-family: 'Times New Roman'
 }
-h3{
+
+h3 {
     color: #F2F2F2;
 }
-.footer-left{
+
+.footer-left {
     color: #F2F2F2;
 }
+
 .field-content {
     color: #F2F2F2;
 }
-.Copyright{
+
+.Copyright {
     color: #F2F2F2;
+    padding-left: 8cm;
 }
+
 .region-footer {
     padding: 20px 0;
 }
@@ -138,4 +161,52 @@ h3{
         border-left: none;
         padding-left: 0;
     }
+}
+
+.block-blocklogoicon img {
+    height: 80px;
+    width: auto;
+    margin-left: 8cm;
+
+}
+
+.title-footer {
+    height: 50px;
+    width: auto;
+    font-size: 22px;
+    margin-left: 8cm;
+}
+
+.view-content {
+    margin-left: 8cm;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc;
+    border: 0px solid #000000;
+    border-radius: 16px;
 }
